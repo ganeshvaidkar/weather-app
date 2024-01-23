@@ -20,10 +20,11 @@ const [datainfo,setdatainfo] = useState()
         setdatainfo(objData)
       // console.log(res.data)
     })
-    
+    .catch((err)=>console.log(err))
   }
   useEffect(()=>{
     searchWeather()
+    //eslint-disable-next-line
   },[])
   return<div>
     <div className="container">
