@@ -23,10 +23,10 @@ const Weather =  (props)=>{
                     setweatherImg("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRd6pMUR9RcqMabP2y3MxsomEUcwOY_hHgEZA&usqp=CAU")
                     break;
                 }
-                case "moderate rain":{
-                    setweatherImg("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQb5zwowD_G6D1goh3M9ttKF-i0Wkp3ci8Yrw&usqp=CAU")
-                    break;
-                }
+                // case "moderate rain":{
+                //     setweatherImg("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQb5zwowD_G6D1goh3M9ttKF-i0Wkp3ci8Yrw&usqp=CAU")
+                //     break;
+                // }
                 case "rain":{
                     setweatherImg("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQb5zwowD_G6D1goh3M9ttKF-i0Wkp3ci8Yrw&usqp=CAU")
                     break;
