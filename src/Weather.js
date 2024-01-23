@@ -35,7 +35,6 @@ const Weather =  (props)=>{
                     setweatherImg("https://img.freepik.com/free-photo/white-cloud-sky-background_74190-4646.jpg")
                 }
             }
-            // eslint-disable-next-line react-hooks/exhaustive-deps
         },[description])
     return<div>
         <div className="wedDiv">
